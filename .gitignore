@@ -5,7 +5,7 @@
 yarn-error.log
 
 ssl
-dist
+dist/build
 build
 *.build
 node_modules
