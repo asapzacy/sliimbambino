@@ -1,0 +1,35 @@
+
+/* -------  Header  ------- */
+
+.container {
+  z-index: 99;
+  padding: 0 2%;
+  background: $coolwhite;
+  @include size(100%, 5em);
+  composes: flexySpaceBetween from 'styles/_classes.scss';
+}
+
+.nav {
+  flex: 1;
+}
+
+.navList {
+  composes: flexyJustifyEnd from 'styles/_classes.scss';
+}
+
+.navItem {
+  margin: 0 2.5%;
+}
+.navLink {
+  &::after {
+    content: '';
+    display: block;
+    background: $black;
+    opacity: 0;
+    transition: opacity $ease_44;
+    @include size(100%, 1px);
+  }
+  &:hover::after {
+    opacity: 1;
+  }
+}

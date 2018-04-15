@@ -1,0 +1,7 @@
+
+/* -------  Home  ------- */
+
+.container {
+  background: darkslateblue;
+  composes: examplePage from 'styles/_classes.scss';
+}

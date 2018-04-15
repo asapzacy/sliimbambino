@@ -1,0 +1,17 @@
+
+.env
+.DS_Store
+.vscode
+yarn-error.log
+
+ssl
+dist
+build
+*.build
+node_modules
+stats
+extra_stuff
+
+bundle.*
+*.min.
+x.js
