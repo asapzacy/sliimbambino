@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const express = require('express')
 const path = require('path')
+require('dotenv').config()
 
 const port = process.env.API_PORT || 4545
 
