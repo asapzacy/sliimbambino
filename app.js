@@ -2,7 +2,7 @@
 const express = require('express')
 const path = require('path')
 
-const port = process.env.PORT || 4545
+const port = process.env.API_PORT || 4545
 
 const app = express()
 app.use(express.static('./dist'))
