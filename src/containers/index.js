@@ -7,12 +7,10 @@ import AppContainer from './Base/App/AppContainer'
 
 /* -------  Utils  ------- */
 import DynamicImportContainer from './Utils/DynamicImport/DynamicImportContainer'
-
-/* -------  HOCs  ------- */
-import withLoading from './HOCs/withLoading'
+import withLoading from './Utils/hocs/withLoading'
 
 export {
   AppContainer,
-  withLoading,
-  DynamicImportContainer
+  DynamicImportContainer,
+  withLoading
 }

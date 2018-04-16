@@ -1,6 +1,6 @@
 
-/* -------  HOCs  ------- */
-import withLoadable from './HOCs/withLoadable'
+/* -------  Utils  ------- */
+import withLoadable from './Utils/hocs/withLoadable'
 
 /* -------  Core  ------- */
 import Loading from './Core/Loading/Loading'

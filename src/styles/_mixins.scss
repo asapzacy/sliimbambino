@@ -6,10 +6,15 @@
   height: $height;
 }
 
-@mixin position($top, $right, $bottom, $left) {
-  position:absolute;
-  top:$top;
-  right:$right;
-  bottom:$bottom;
-  left:$left;
+@mixin color($color, $background) {
+  color: $color;
+  background-color: $background;
+}
+
+@mixin absolute($top, $right, $bottom, $left) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
 }

@@ -27,6 +27,17 @@
         "named": "never",
         "asyncArrow": "always"
       }
+    ],
+    "react/no-unknown-property": [
+      "error",
+      {
+        "ignore": [
+          "frameborder",
+          "webkitallowfullscreen",
+          "mozallowfullscreen",
+          "allowfullscreen"
+        ]
+      }
     ]
   }
 }
