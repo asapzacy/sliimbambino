@@ -6,6 +6,7 @@ yarn-error.log
 
 ssl
 dist/build
+dist/index.html
 build
 *.build
 node_modules
