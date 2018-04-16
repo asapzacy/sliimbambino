@@ -2,15 +2,12 @@
 /* -------  App  ------- */
 
 .outerContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   flex-direction: column;
-  composes: fullSize from 'styles/_classes.scss';
+  composes: fullSize flexySpaceBetween from 'styles/_classes.scss';
 }
 
 .innerContainer {
   width: 100%;
   flex: 1;
-  display: flex;
+  composes: flexyCentered from 'styles/_classes.scss';
 }

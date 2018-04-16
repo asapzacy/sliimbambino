@@ -4,7 +4,6 @@
 .container {
   z-index: 99;
   padding: 0 2%;
-  background: $coolwhite;
   @include size(100%, 5em);
   composes: flexySpaceBetween from 'styles/_classes.scss';
 }
@@ -26,7 +25,7 @@
     display: block;
     background: $black;
     opacity: 0;
-    transition: opacity $ease_44;
+    transition: opacity 0.44s;
     @include size(100%, 1px);
   }
   &:hover::after {

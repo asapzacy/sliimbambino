@@ -2,6 +2,18 @@
 /* -------  Home  ------- */
 
 .container {
-  background: darkslateblue;
-  composes: examplePage from 'styles/_classes.scss';
+  margin: 0 auto;
+  @include size(90%, 100%);
+  composes: flexyCentered from 'styles/_classes.scss';
+}
+
+.videoContainer {
+  position: relative;
+  padding-bottom: $aspectRatio;
+  @include size(100%, 0);
+}
+
+.video {
+  @include absolute(0, null, null, 0);
+  composes: fullSize from 'styles/_classes.scss';
 }
